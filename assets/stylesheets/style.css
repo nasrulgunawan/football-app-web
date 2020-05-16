@@ -1,0 +1,14 @@
+.bottom-navigation {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
+
+.bottom-navigation .indicator {
+  display: none;
+}
+
+.bottom-navigation>.tabs>.tab>a>.material-icons {
+  position: relative;
+  top: 15%;
+}
