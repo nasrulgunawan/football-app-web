@@ -7,4 +7,5 @@ document.addEventListener('DOMContentLoaded', function () {
   M.Tabs.init(tabElements);
 
   Api.getCompetitions();
+  Api.getMatches();
 });

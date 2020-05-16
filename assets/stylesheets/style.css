@@ -1,7 +1,16 @@
+body {
+  background-color: rgba(101, 31, 255, .01);
+}
+
+.container {
+  padding-top: 16px;
+}
+
 .bottom-navigation {
   position: fixed !important;
   bottom: 0;
   width: 100%;
+  box-shadow: 0 -5px 5px -5px rgba(0, 0, 0, .05);
 }
 
 .bottom-navigation .indicator {
@@ -11,4 +20,46 @@
 .bottom-navigation>.tab>a>.material-icons {
   position: relative;
   top: 15%;
+}
+
+.tabs .tab a {
+  color: #000 !important;
+}
+
+.tabs .tab a:hover,
+.tabs .tab a.active {
+  color: #651fff !important;
+  background-color: #fff !important;
+}
+
+.card-panel {
+  box-shadow: 0 1px 20px rgba(0, 0, 0, .05) !important;
+  border-radius: 8px !important;
+}
+
+nav {
+  border-bottom: 1px solid #f5f5f5;
+  box-shadow: none !important;
+}
+
+.center-text {
+  text-align: center;
+}
+
+.responsive-img {
+  height: 50px !important;
+}
+
+.content-middle {
+  display: flex;
+  align-items: center;
+}
+
+.no-margin {
+  margin: 0 !important;
+}
+
+.loading {
+  display: flex;
+  justify-content: center;
 }
