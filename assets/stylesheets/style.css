@@ -1,5 +1,5 @@
 .bottom-navigation {
-  position: fixed;
+  position: fixed !important;
   bottom: 0;
   width: 100%;
 }
@@ -8,7 +8,7 @@
   display: none;
 }
 
-.bottom-navigation>.tabs>.tab>a>.material-icons {
+.bottom-navigation>.tab>a>.material-icons {
   position: relative;
   top: 15%;
 }
