@@ -56,6 +56,22 @@ class Ui {
     standingElement.innerHTML = template;
   }
 
+  static setCompetitionTemplate(competitions) {
+    const competitionsElement = document.querySelector('.competitions');
+    competitionsElement.innerHTML = '';
+    competitions.forEach(competition => {
+      competitionsElement.innerHTML += `
+        <div class="col s12">
+          <div class="card-panel center-text">
+            <span><b>${competition.name}</b></span>
+            <br/>
+            <label>${competition.area.name}</label>
+          </div>
+        </div>
+      `;
+    })
+  }
+
   static loading() {
     return `<div class="loading">
         <div class="preloader-wrapper small active">
